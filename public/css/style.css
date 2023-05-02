@@ -19,7 +19,7 @@
     --gray: #636466;
     --gray-dark: #444;
     --gray-light: #ddd;
-    --footer-bg: #EE7F09;
+    --footer-bg: #50610a;
     
 }
 
@@ -209,9 +209,9 @@ small {
     max-width: 1200px;
 }
 
-.app-content {
+/* .app-content {
     background-color: var(--gray-light);
-}
+} */
 
 /* FORMULAIRE */
 .form-row {
@@ -248,10 +248,11 @@ small {
 /* HEADER */
 header {
     box-shadow: var(--box-shadow);
+    max-height: 130px;
 }
 
 .header-logo {
-    max-width: 150px;
+    max-width: 100px;
 }
 
 .header-logo  img {
@@ -273,6 +274,7 @@ header {
 
 /* FOOTER */
 footer {
+    max-height: 50px;
     background-color: var(--footer-bg);
     color: white;
 }
