@@ -112,6 +112,14 @@ small {
     margin: 5px;
 }
 
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
 .mr-20 {
     margin-right: 20px;
 }
@@ -205,9 +213,9 @@ small {
 }
 
 /* GENERAL */
-.content {
+/* .content {
     max-width: 1200px;
-}
+} */
 
 /* .app-content {
     background-color: var(--gray-light);
@@ -277,4 +285,20 @@ footer {
     max-height: 50px;
     background-color: var(--footer-bg);
     color: white;
+}
+
+/* GITE */
+.gites-container {
+    width: 99%;
+}
+.gite-container {
+    border: 2px solid var(--primary-light);
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.gite-img {
+    border-radius: 10px 10px 0 0;
+    width: 500px;
 }
