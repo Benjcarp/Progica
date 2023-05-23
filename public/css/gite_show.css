@@ -1,0 +1,38 @@
+.show-gite-container {
+    width: 50%;
+    height: 70vh;
+    background-color: white;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.gite-photo {
+    width: 70%;
+    height: 70vh;
+    border-top-left-radius: 13px;
+}
+
+.info-container {
+    width: 30%;
+    padding-right: 5px;
+}
+
+.ok {
+    color: var(--success);
+}
+
+.notok {
+    color: var(--warning);
+}
+
+.font-600 {
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.multiples {
+    background-color: white;
+    width: 50%;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}

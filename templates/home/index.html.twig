@@ -5,11 +5,11 @@
 {% block body %}
     <div class="gites-container d-flex justify-content-center flex-row-wrap align-items-center m-20">
         {% for gite in gites %}
-        <a class="d-flex flex-column  align-items-center mr-20 gite-container" href="{{path('show_gite', {id: gite.id})}}">
+        <a class="d-flex flex-column  align-items-center mb-20 mr-20 gite-container" href="{{path('show_gite', {id: gite.id})}}">
             <img src="{{gite.image}}" alt="" class="gite-img">
-            <h2 class="mb-10">{{gite.nom}}</h2>
-            <p class="mb-10">{{gite.prix}}€ par nuit</p>
-            <p>du {{gite.datedebut|date("d/m/Y")}} au {{gite.datefin|date("d/m/Y")}} </p>
+            <h3 class="mb-10 mt-10">{{gite.nom}}</h2>
+            <p class="mb-10">{{gite.prix}}€</p>
+            <p class="mb-10">du {{gite.prix.debut|format_datetime('long', 'none', locale='fr')}} au {{gite.prix.fin|format_datetime('long', 'none', locale='fr')}} </p>
         </a>
     {% endfor %}
     </div>    

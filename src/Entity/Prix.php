@@ -63,4 +63,10 @@ class Prix
 
         return $this;
     }
+    
+    public function __toString() {
+        return $this->tarif;
+        return $this->debut;
+        return $this->fin;
+    }
 }

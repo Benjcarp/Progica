@@ -59,6 +59,14 @@ small {
     display: flex;
 }
 
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-block {
+    display: block;
+}
+
 .flex-row-nowrap {
     flex-flow: row nowrap;
 }
@@ -77,6 +85,10 @@ small {
 
 .align-items-end {
     align-items: flex-end;
+}
+
+.align-items-start {
+    align-items: flex-start;
 }
 
 .justify-content-center {
@@ -100,6 +112,10 @@ small {
     margin-right: 5px;
 }
 
+.pl-5 {
+    padding-left: 5px;
+}
+
 .m-10 {
     margin: 10px;
 }
@@ -112,12 +128,40 @@ small {
     margin: 5px;
 }
 
+.ml-5 {
+    margin-left: 5px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
 .mb-5 {
     margin-bottom: 5px;
 }
 
+.mb-50 {
+    margin-bottom: 50px;
+}
+
 .mb-10 {
     margin-bottom: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
 }
 
 .mr-20 {
@@ -215,11 +259,11 @@ small {
 /* GENERAL */
 /* .content {
     max-width: 1200px;
-} */
+}  */
 
-/* .app-content {
+.app-content {
     background-color: var(--gray-light);
-} */
+}
 
 /* FORMULAIRE */
 .form-row {
@@ -294,11 +338,15 @@ footer {
 .gite-container {
     border: 2px solid var(--primary-light);
     border-radius: 10px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    width: 20%;
+    height: 50vh;
+    background-color: white;
 }
 
 .gite-img {
-    border-radius: 10px 10px 0 0;
-    width: 500px;
+   width: 100%;
+   height: auto;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   height: 80%;
 }
