@@ -3,6 +3,10 @@
 {% block title %}Progica - Locations de gîtes{% endblock %}
 
 {% block body %}
+    {{form_start(filtre)}}
+        {{form_rest(filtre)}}
+        <button>Filtrer</button>
+    {{form_end(filtre)}}
     <div class="gites-container d-flex justify-content-center flex-row-wrap align-items-center m-20">
         {% for gite in gites %}
         <a class="d-flex flex-column  align-items-center mb-20 mr-20 gite-container" href="{{path('show_gite', {id: gite.id})}}">
